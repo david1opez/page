@@ -20,10 +20,10 @@ export default function Navbar({ active }: { active: 'Home' | 'Page1' | 'Page2' 
                         <p className={`text-white ${active === 'Home' ? 'font-bold underline' : ''} text-lg`}>Home</p>
                     </Link>
                     <Link href={'/page1'} className="cursor-pointer">
-                        <p className={`text-white ${active === 'Page1' ? 'font-bold' : ''} text-lg`}>Page1</p>
+                        <p className={`text-white ${active === 'Page1' ? 'font-bold underline' : ''} text-lg`}>Page1</p>
                     </Link>
                     <Link href={'/page2'} className="cursor-pointer">
-                        <p className={`text-white ${active === 'Page2' ? 'font-bold' : ''} text-lg`}>Page2</p>
+                        <p className={`text-white ${active === 'Page2' ? 'font-bold underline' : ''} text-lg`}>Page2</p>
                     </Link>
                 </div>
             </div>
